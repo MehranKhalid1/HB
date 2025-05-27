@@ -221,23 +221,27 @@
                 <ellipse cx="400" cy="230" rx="20" ry="8" fill="#6a6a6a"/>
                 <circle cx="420" cy="230" r="6" fill="#ff4444" opacity="0.8"/>
                 
-                <!-- Missiles mounted under wings -->
-                <rect x="350" y="270" width="30" height="6" fill="#ff6b6b" rx="3"/>
-                <rect x="420" y="270" width="30" height="6" fill="#ff6b6b" rx="3"/>
-                <rect x="300" y="275" width="30" height="6" fill="#ff6b6b" rx="3"/>
-                <rect x="470" y="275" width="30" height="6" fill="#ff6b6b" rx="3"/>
+                <!-- Missiles mounted under wings (8 total) -->
+                <rect x="340" y="270" width="25" height="5" fill="#ff6b6b" rx="2"/>
+                <rect x="370" y="270" width="25" height="5" fill="#ff6b6b" rx="2"/>
+                <rect x="405" y="270" width="25" height="5" fill="#ff6b6b" rx="2"/>
+                <rect x="435" y="270" width="25" height="5" fill="#ff6b6b" rx="2"/>
+                <rect x="310" y="278" width="25" height="5" fill="#ff6b6b" rx="2"/>
+                <rect x="340" y="278" width="25" height="5" fill="#ff6b6b" rx="2"/>
+                <rect x="435" y="278" width="25" height="5" fill="#ff6b6b" rx="2"/>
+                <rect x="465" y="278" width="25" height="5" fill="#ff6b6b" rx="2"/>
                 
                 <!-- Sensor dome -->
                 <ellipse cx="480" cy="235" rx="12" ry="8" fill="#87ceeb" opacity="0.9"/>
                 
                 <!-- Landing gear (retracted) -->
-                <rect x="380" y="270" width="40" height="4" fill="#666" rx="2"/>
+                <rect x="380" y="285" width="40" height="4" fill="#666" rx="2"/>
                 
                 <!-- Labels and annotations -->
                 <text x="400" y="320" text-anchor="middle" font-size="14" fill="#00ff88" font-weight="bold">HAIBAT MK-II INTERCEPTOR</text>
                 <text x="150" y="190" text-anchor="middle" font-size="11" fill="#ffd700">Vertical Stabilizer</text>
                 <text x="400" y="190" text-anchor="middle" font-size="11" fill="#ffd700">EO/IR Sensor Pod</text>
-                <text x="400" y="300" text-anchor="middle" font-size="11" fill="#ff6b6b">4x Guided Missiles</text>
+                <text x="400" y="300" text-anchor="middle" font-size="11" fill="#ff6b6b">8x TY-90 Missiles</text>
                 <text x="580" y="230" text-anchor="middle" font-size="11" fill="#ffd700">Nose Radar</text>
                 
                 <!-- Dimension lines -->
@@ -254,7 +258,16 @@
             
             <div class="missile-grid">
                 <div class="missile-card recommended">
-                    <h3 style="color: #00ff88;">✅ RECOMMENDED: Chinese FT-9</h3>
+                    <h3 style="color: #00ff88;">✅ RECOMMENDED: Chinese TY-90</h3>
+                    <p><strong>Cost:</strong> $650 per missile</p>
+                    <p><strong>Range:</strong> 2-6 km</p>
+                    <p><strong>Guidance:</strong> IR homing + proximity fuse</p>
+                    <p><strong>Weight:</strong> 9 kg</p>
+                    <p><strong>Kill Probability:</strong> 82% vs small UAVs</p>
+                </div>
+                
+                <div class="missile-card">
+                    <h3 style="color: #87ceeb;">Chinese FT-9</h3>
                     <p><strong>Cost:</strong> $800 per missile</p>
                     <p><strong>Range:</strong> 3-8 km</p>
                     <p><strong>Guidance:</strong> IR homing + proximity fuse</p>
@@ -296,23 +309,24 @@
                 <div class="spec-title">🎯 Enhanced Combat Systems</div>
                 <div class="combat-stats">
                     <div class="stat-box">
-                        <div class="stat-number">6</div>
-                        <div>FT-9 Missiles</div>
+                        <div class="stat-number">8</div>
+                        <div>TY-90 Missiles</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">8km</div>
+                        <div class="stat-number">6km</div>
                         <div>Max Range</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">6-8</div>
+                        <div class="stat-number">4</div>
                         <div>Targets/Flight</div>
                     </div>
                     <div class="stat-box">
-                        <div class="stat-number">92%</div>
-                        <div>Hit Rate</div>
+                        <div class="stat-number">95%</div>
+                        <div>Kill Rate</div>
                     </div>
                 </div>
-                <p><strong>Primary Armament:</strong> 6x Chinese FT-9 Air-to-Air Missiles</p>
+                <p><strong>Primary Armament:</strong> 8x Chinese TY-90 Air-to-Air Missiles</p>
+                <p><strong>Engagement Strategy:</strong> 2 missiles per target for confirmed kill</p>
                 <p><strong>Secondary:</strong> Electronic jamming pod</p>
                 <p><strong>Engagement Modes:</strong> BVR, WVR, and swarm intercept</p>
             </div>
@@ -348,8 +362,8 @@
                 <p><strong>Wingspan:</strong> <span class="highlight">4.8 m</span></p>
                 <p><strong>Height:</strong> <span class="highlight">1.8 m</span></p>
                 <p><strong>Empty Weight:</strong> <span class="highlight">180 kg</span></p>
-                <p><strong>Max Takeoff Weight:</strong> <span class="highlight">320 kg</span></p>
-                <p><strong>Payload:</strong> <span class="highlight">140 kg</span></p>
+                <p><strong>Max Takeoff Weight:</strong> <span class="highlight">340 kg</span></p>
+                <p><strong>Payload:</strong> <span class="highlight">160 kg</span></p>
                 <p><strong>Engine:</strong> Chinese turboprop (85 HP)</p>
                 <p><strong>Fuel Capacity:</strong> <span class="highlight">45 liters</span></p>
             </div>
@@ -400,26 +414,28 @@
                     <p>• <strong>EO/IR Sensor Pod:</strong> $8,500</p>
                     <p>• <strong>Communication Suite:</strong> $3,500</p>
                     <p>• <strong>ECM/Jamming Pod:</strong> $4,000</p>
-                    <p>• <strong>6x FT-9 Missiles:</strong> $4,800</p>
-                    <p>• <strong>Missile Pylons:</strong> $1,200</p>
+                    <p>• <strong>8x TY-90 Missiles:</strong> $5,200</p>
+                    <p>• <strong>Missile Pylons:</strong> $1,600</p>
                     <hr style="border-color: #00ff88;">
-                    <p><strong>Systems Total: $34,000</strong></p>
-                    <p><strong>🎖️ Complete System: $57,000</strong></p>
+                    <p><strong>Systems Total: $34,800</strong></p>
+                    <p><strong>🎖️ Complete System: $57,800</strong></p>
                 </div>
             </div>
             
             <div style="text-align: center; margin-top: 30px; padding: 20px; background: rgba(0, 255, 136, 0.1); border-radius: 15px;">
                 <h3 style="color: #00ff88;">Cost Per Engagement Analysis</h3>
-                <p><strong>Cost per missile engagement:</strong> $800 (FT-9)</p>
-                <p><strong>Targets per mission:</strong> 6-8 drones</p>
-                <p><strong>Cost effectiveness:</strong> 10x cheaper than traditional SAMs</p>
+                <p><strong>Cost per missile engagement:</strong> $650 (TY-90)</p>
+                <p><strong>Cost per target (2 missiles):</strong> $1,300</p>
+                <p><strong>Targets per mission:</strong> 4 confirmed kills</p>
+                <p><strong>Cost effectiveness:</strong> 12x cheaper than traditional SAMs</p>
                 <p><strong>Maintenance cost:</strong> $500 per flight hour</p>
             </div>
         </div>
 
         <div class="spec-card">
             <div class="spec-title">🚀 Advanced Operational Capabilities</div>
-            <p><strong>Multi-Target Engagement:</strong> Can engage multiple threats simultaneously using different missiles</p>
+            <p><strong>Multi-Target Engagement:</strong> Simultaneous dual-missile engagement for 95% kill probability</p>
+            <p><strong>Salvo Mode:</strong> Can ripple-fire 4 missiles in 2 seconds for 2 targets</p>
             <p><strong>Patrol Patterns:</strong> Autonomous figure-8, racetrack, and CAP patterns</p>
             <p><strong>Threat Assessment:</strong> AI-powered target classification and prioritization</p>
             <p><strong>Network Integration:</strong> Links with ground-based air defense systems</p>
@@ -427,6 +443,7 @@
             <p><strong>Night Vision:</strong> Full thermal imaging and low-light operations</p>
             <p><strong>Rapid Deployment:</strong> 15-minute readiness from hangar to patrol</p>
             <p><strong>Force Multiplication:</strong> One operator can control up to 4 drones</p>
+            <p><strong>Missile Management:</strong> Smart allocation - reserves 2 missiles per detected target</p>
         </div>
 
         <div style="background: linear-gradient(135deg, rgba(0, 255, 136, 0.2), rgba(0, 200, 255, 0.1)); border: 2px solid #00ff88; border-radius: 20px; padding: 30px; margin: 40px 0;">
@@ -442,11 +459,15 @@
                 </div>
                 <div>
                     <h4 style="color: #ffd700;">Payload:</h4>
-                    <p>6 missiles vs 4 missiles - 50% more firepower</p>
+                    <p>8 missiles vs 4 missiles - 100% more firepower</p>
                 </div>
                 <div>
                     <h4 style="color: #ffd700;">Cost Efficiency:</h4>
-                    <p>$800 per engagement vs $3,500 - 4.4x cheaper</p>
+                    <p>$650 per missile vs $3,500 - 5.4x cheaper</p>
+                </div>
+                <div>
+                    <h4 style="color: #ffd700;">Kill Assurance:</h4>
+                    <p>2 missiles per target - 95% guaranteed elimination</p>
                 </div>
             </div>
         </div>
